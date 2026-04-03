@@ -1,105 +1,116 @@
-# 🚀 Portfolio Profesional de Desarrollos e Innovación Tecnológica (NERI APPS)
+# 🚀 Portafolio de Ingeniería y Desarrollo Tecnológico (NERI APPS - Full Edition)
 
-Este documento presenta un análisis estructurado de la suite de aplicaciones desarrolladas, destacando la arquitectura técnica, el impacto de negocio y el "temario" detallado de cada solución. Diseñado específicamente para ser procesado por **Notebook LM** como base de conocimiento para currículums y presentaciones ejecutivas.
-
----
-
-## 🏗️ Perfil del Desarrollador / Arquitecto de Soluciones
-Especialista en desarrollo **Full-Stack** con enfoque en la integración de **Inteligencia Artificial (GenAI)**, soluciones de movilidad con **Capacitor** y ecosistemas en tiempo real con **Firebase**. Experiencia comprobada en sectores críticos: Fitness de alto rendimiento, Logística Industrial, Fintech/Web3 y Branding Digital.
+Este documento es una expansión exhaustiva del portafolio profesional, analizando los **18 proyectos seleccionados** que representan la capacidad técnica de **NERI** en múltiples lenguajes (TypeScript, Python, JavaScript) y plataformas (Web, Móvil, Desktop, Backend).
 
 ---
 
-## 1. Ecosistema Salvin: Gestión Deportiva de Élite
-**Proyectos:** `COACH PRO`, `Coach & Athtlet PRO`, `Lions Salvin PRO`, `medicoach`, `Antigravity Salvin suite`.
+## 🏗️ Perfil del Desarrollador y Arquitecto
+Arquitecto de soluciones **Full-Stack** y **Automation Engineer** con experiencia en:
+- **Desarrollo Multiplataforma:** Soluciones nativas y web usando React Native, Capacitor y Electron.
+- **Ingeniería de Automatización:** Scripting avanzado en Python para la optimización de procesos de diseño.
+- **Ecosistemas con IA:** Implementación de modelos GenAI (Gemini) en flujos creativos y logísticos.
+- **Branding & E-commerce:** Creación de experiencias de marca premium y plataformas de venta escalables.
+
+---
+
+## 1. Ecosistema Salvin & Antigravity Suite
+**Proyectos:** `Lions Salvin PRO`, `Coach & Athtlet PRO`, `WEB Salvin PRO Suite`, `Antigravity Salvin suite`.
 
 ### Resumen Ejecutivo
-Una plataforma integral para el fitness profesional que trasciende la simple gestión de rutinas. El ecosistema permite a entrenadores gestionar atletas mediante evaluaciones antropométricas avanzadas, planes nutricionales dinámicos y seguimiento de progreso multilingüe.
+Un ecosistema líder en gestión de fitness de alto rendimiento. Incluye desde la versión móvil para atletas hasta la suite administrativa "Antigravity", dedicada a la mejora continua, corrección de errores críticos y mantenimiento de la infraestructura.
 
-### 📚 Temario Detallado (Presentación Técnica)
-- **Módulo de Inteligencia Antropométrica:** Cálculo automático de porcentajes de grasa, músculo y hueso mediante algoritmos personalizados.
-- **Generación Dinámica de Planes con IA:** Integración con Gemini API para crear dietas y entrenamientos que se adaptan al progreso semanal del atleta.
-- **Sincronización Multi-dispositivo:** Arquitectura robusta en Firebase para persistencia de datos entre aplicaciones de entrenador y atleta.
-- **Localización y Escalabilidad:** Implementación de i18next para soporte bilingüe completo (ES/EN) y estructura modular para añadir nuevas disciplinas deportivas.
-- **Despliegue Nativo:** Configuración de Capacitor para empaquetado Android/iOS con autenticación biométrica y notificaciones push.
+### 📚 Temario Técnico
+- **Mantenimiento Evolutivo:** Gestión de versiones (v1.2+) y corrección de flujos de autenticación bilingüe.
+- **Sincronización Cloud:** Persistencia en tiempo real para el seguimiento de objetivos nutricionales y de entrenamiento.
+- **UX Adaptativa:** Diseño optimizado para uso intensivo en campo (gimnasios/entrenamientos).
 
 ---
 
-## 2. RCE & Almacén: Logística y Control de Riesgos Industriales
-**Proyectos:** `RCE (Control ESD)`, `Almacen Empresarial`, `Resultados Reincidencias`.
+## 2. Ingeniería de Automatización y Diseño
+**Proyectos:** `DISEÑO AUTOMATIZADO`, `Flyer Creator`, `STICKERS UP`.
 
 ### Resumen Ejecutivo
-Soluciones de software diseñadas para el entorno industrial mexicano, enfocadas en el control de calidad, mitigación de riesgos (ESD) y optimización de flujo en almacenes transnacionales.
+Aplicación de la ingeniería de software a procesos creativos. El proyecto de **Diseño Automatizado** destaca por el uso de Python para manipular datos de ingeniería de fuentes (Font Engineering) a un nivel binario y tabular.
 
-### 📚 Temario Detallado (Presentación Técnica)
-- **Control de Descarga Electrostática (ESD):** Sistema de monitoreo y registro de evaluaciones periódicas para cumplimiento de normativas industriales.
-- **Análisis de Reincidencias Logísticas:** Módulo de análisis estadístico para identificar patrones de fallas en procesos de cuadrillas.
-- **Visualización de Inventarios en Tiempo Real:** Dashboard dinámico con Recharts para el seguimiento de movimientos de almacén y proyecciones de stock.
-- **Integración Excel-Cloud:** Automatización de reportes mediante la transformación de datos heredados (XLSX) a bases de datos en la nube (Firestore).
+### 📚 Temario Técnico
+- **Font Engineering (Python):** Automatización de tablas de fuentes (otData, otTables) y manipulación de metadatos tipográficos.
+- **Generación Publicitaria IA:** Conversión de conceptos creativos en activos visuales usando Large Language Models.
+- **Procesamiento de Video (FFmpeg):** Creación de stickers y micro-videos mediante procesamiento en el cliente (Wasm).
 
 ---
 
-## 3. IA Creative Studio: Automatización Multimedia
-**Proyectos:** `Flyer Creator`, `OMISTREAM AI`, `STICKERS UP`.
+## 3. E-commerce y Branding Premium
+**Proyecto:** `LOREN (La Ermitaña de la Montaña)`.
 
 ### Resumen Ejecutivo
-Herramientas de vanguardia que utilizan la IA para democratizar el diseño profesional y la edición multimedia, reduciendo tiempos de producción de días a minutos.
+Plataforma de comercio electrónico de alta gama para productos artesanales. Utiliza **Next.js 16** para ofrecer una experiencia de usuario extremadamente rápida y una estética rústica-romántica que eleva el valor percibido del producto.
 
-### 📚 Temario Detallado (Presentación Técnica)
-- **Generador de Flyers Inteligente:** Interfaz React que traduce prompts creativos en diseños publicitarios listos para redes sociales.
-- **OmiStream AI:** Arquitectura de streaming de video escalable con capacidades de backend para procesamiento de contenido embebido.
-- **Motor de Stickers con WebAssembly:** Uso de `FFmpeg.wasm` para procesar archivos de video y generar stickers personalizados directamente en el navegador del usuario, sin servidor intermedio.
+### 📚 Temario Técnico
+- **Arquitectura Next.js:** Renderizado del lado del servidor (SSR) para SEO avanzado y tiempos de carga instantáneos.
+- **UI/UX con Framer Motion:** Micro-interacciones fluidas y transiciones elegantes que refuerzan el branding artesanal.
+- **Styling con Tailwind 4:** Gestión eficiente de paletas de colores personalizadas y diseño responsivo premium.
 
 ---
 
-## 4. Fintech & Web3: Futuro de los Activos Digitales
-**Proyectos:** `trading_pak`, `money_creator`.
+## 4. Arquitectura Multiplataforma y Plantillas
+**Proyecto:** `PLANTILLA_IAICO_V1`.
 
 ### Resumen Ejecutivo
-Desarrollos enfocados en la economía descentralizada y el trading automatizado, priorizando la precisión de los algoritmos y la seguridad en la gestión de capital.
+El "Master Blueprint" para nuevos desarrollos. Una plantilla técnica de nivel industrial que permite iniciar aplicaciones **Electron (Desktop)**, **Capacitor (Móvil)** y **Web** desde una base de código única enriquecida con manuales técnicos y de mantenimiento.
 
-### 📚 Temario Detallado (Presentación Técnica)
-- **Bot de Trading "Pakal":** Backend en Node.js que ejecuta estrategias basadas en indicadores técnicos (RSI, Medias Móviles) conectándose a APIs de exchanges (Bitso).
-- **Manejo de Web3 Frontend:** Integración de RainbowKit y Wagmi para conexión de carteras y visualización de activos digitales en tiempo real.
-- **Gestión de Liquidez:** Dashboards de rendimiento (P&L) con actualizaciones constantes mediante persistencia en Firebase Admin SDK.
+### 📚 Temario Técnico
+- **Cross-Platform Bridge:** Configuración de puentes binarios para acceso a funciones de hardware desde el navegador.
+- **Documentación Técnica Integrada:** Manuales de usuario, guías de mantenimiento y checklist de pruebas pre-producción.
+- **Arquitectura Modular:** Estructura escalable de servicios y estados globales (React Context/Hooks).
 
 ---
 
-## 5. Digital Experiences & Premium UX
-**Proyectos:** `ACUARIO MICHIN`, `VILLA 20 TAMARÁN CLUB`, `ELITE HOSTING`.
+## 5. Salud y Bienestar (Mobile High-Performance)
+**Proyecto:** `medicoach`.
 
 ### Resumen Ejecutivo
-Interfaces que priorizan la estética "Premium" y la inmersión del usuario. Diseños que elevan la percepción de marca mediante micro-animaciones y layouts modernos.
+Aplicación móvil nativa orientada al sector salud y coaching médico, desarrollada sobre el ecosistema **Expo/React Native**.
 
-### 📚 Temario Detallado (Presentación Técnica)
-- **UI de Impacto (Deep Sea Aesthetics):** Uso avanzado de CSS (Glassmorphism, gradientes armónicos) para crear una experiencia de usuario única para Acuario Michin.
-- **Single Page Applications (SPA):** Landing pages optimizadas para alta conversión y velocidad de carga extrema mediante Vite.
-- **Estructura Semántica SEO:** Optimización técnica completa para visibilidad en motores de búsqueda.
-
----
-
-## 🛠️ Stack Tecnológico Consolidado (Cloud Native)
-
-**Front-End:**
-- React 19 (Hooks, Context, Concurrent Mode)
-- Vite / Next.js
-- Tailwind CSS / Vanilla CSS moderno
-- Framer Motion (Animaciones)
-
-**Back-End & Cloud:**
-- Node.js / Express
-- Firebase (Firestore, Auth, Functions, Hosting)
-- Google Cloud (Vertex AI / Gemini API)
-
-**Mobile:**
-- Capacitor / Ionic
-- React Native (Expo)
-
-**Data & Analytics:**
-- Recharts (Visual Data)
-- Axios & RESTful APIs
-- Python (para análisis de datos opcional)
+### 📚 Temario Técnico
+- **Gestión de Navegación Nativa:** Flujos complejos de usuario optimizados para iOS y Android.
+- **Persistencia de Datos Médicos:** Manejo seguro de información confidencial y estados persistentes locales.
 
 ---
 
-> [!TIP]
-> **Notebook LM:** Utiliza las secciones de "Temarios" para generar preguntas frecuentes (FAQs), resúmenes por proyecto o descripciones detalladas de roles para vacantes de liderazgo técnico.
+## 6. Fintech, Web3 y Logística Industrial
+**Proyectos:** `trading_pak`, `money_creator`, `RCE (Control ESD)`, `Almacen Empresarial`.
+
+### Resumen Ejecutivo
+Desde el control de calidad industrial (ESD) hasta el mundo descentralizado (Web3), estas herramientas gestionan flujos de datos críticos y algoritmos de alta precisión.
+
+### 📚 Temario Técnico
+- **Control de Calidad Industrial (RCE):** Monitoreo de normativas de seguridad y análisis de incidencias operativas.
+- **Algoritmos de Trading (Node.js):** Ejecución de estrategias financieras en tiempo real con integración de APIs bancarias/crypto.
+- **Conectividad Web3:** Integración de protocolos de carteras digitales para visualización de activos en la blockchain.
+
+---
+
+## 7. Digital Infrastructure & Tourism
+**Proyectos:** `ELITE HOSTING`, `ACUARIO MICHIN`, `VILLA 20 TAMARÁN CLUB`, `OMISTREAM AI`.
+
+### Resumen Ejecutivo
+Gestión de infraestructura web activa y plataformas de experiencia turística inmersiva.
+
+### 📚 Temario Técnico
+- **Gestión de Infraestructura (Elite Hosting):** Mantenimiento de servidores y branding de servicios de hospedaje.
+- **Streaming & UX:** Desarrollo de plataformas de video y tours virtuales con enfoque en rendimiento de red.
+
+---
+
+## 🛠️ Stack Tecnológico Estratégico (NERI APPS)
+
+- **Lenguajes:** TypeScript, JavaScript, Python.
+- **Frameworks Web:** Next.js 16, React 19, Tailwind CSS 4.
+- **Plataformas:** Electron (Desktop), Capacitor (Mobile Hybrid), Expo (Native Hybrid).
+- **Backend & Cloud:** Node.js, Firebase (Full Suite), Gemini API (AI).
+- **Herramientas de Ingeniería:** FFmpeg, fonttools (Python), Git, Vite.
+
+---
+
+> [!IMPORTANT]
+> **Notebook LM:** Este documento consolida 18 proyectos desarrollados e integrados. Se recomienda utilizar el análisis de "DISEÑO AUTOMATIZADO" para resaltar habilidades de ingeniería de software y el de "LOREN" para habilidades de desarrollo web moderno.
