@@ -1,116 +1,110 @@
-# 🚀 Portafolio de Ingeniería y Desarrollo Tecnológico (NERI APPS - Full Edition)
+# 🚀 Portafolio de Ingeniería y Desarrollo Tecnológico (NERI APPS - 18 Proyectos)
 
-Este documento es una expansión exhaustiva del portafolio profesional, analizando los **18 proyectos seleccionados** que representan la capacidad técnica de **NERI** en múltiples lenguajes (TypeScript, Python, JavaScript) y plataformas (Web, Móvil, Desktop, Backend).
-
----
-
-## 🏗️ Perfil del Desarrollador y Arquitecto
-Arquitecto de soluciones **Full-Stack** y **Automation Engineer** con experiencia en:
-- **Desarrollo Multiplataforma:** Soluciones nativas y web usando React Native, Capacitor y Electron.
-- **Ingeniería de Automatización:** Scripting avanzado en Python para la optimización de procesos de diseño.
-- **Ecosistemas con IA:** Implementación de modelos GenAI (Gemini) en flujos creativos y logísticos.
-- **Branding & E-commerce:** Creación de experiencias de marca premium y plataformas de venta escalables.
+Este documento representa la consolidación técnica definitiva de **NERI**, analizando individualmente cada uno de los **18 desarrollos** que componen el ecosistema actual. Cada sección detalla el impacto de negocio y la profundidad técnica de la solución.
 
 ---
 
-## 1. Ecosistema Salvin & Antigravity Suite
-**Proyectos:** `Lions Salvin PRO`, `Coach & Athtlet PRO`, `WEB Salvin PRO Suite`, `Antigravity Salvin suite`.
+## 1. Lions Salvin PRO
+**Stack:** Vite, React 19, Firebase, Tailwind CSS 3.
+- **Resumen:** El núcleo operativo del ecosistema Salvin. Gestiona el flujo de trabajo diario de atletas de alto rendimiento.
+- **Temario Técnico:** Sincronización de datos en tiempo real (NoSQL), gestión de estados complejos para rutinas dinámicas y autenticación robusta mediante Firebase Auth.
 
-### Resumen Ejecutivo
-Un ecosistema líder en gestión de fitness de alto rendimiento. Incluye desde la versión móvil para atletas hasta la suite administrativa "Antigravity", dedicada a la mejora continua, corrección de errores críticos y mantenimiento de la infraestructura.
+## 2. Coach & Athtlet PRO
+**Stack:** React 19, Firebase, Framer Motion.
+- **Resumen:** Plataforma bidireccional que conecta entrenadores con atletas, permitiendo una supervisión granular del progreso físico y nutricional.
+- **Temario Técnico:** Implementación de dashboards interactivos para el seguimiento de métricas corporales y sistemas de comunicación en tiempo real.
 
-### 📚 Temario Técnico
-- **Mantenimiento Evolutivo:** Gestión de versiones (v1.2+) y corrección de flujos de autenticación bilingüe.
-- **Sincronización Cloud:** Persistencia en tiempo real para el seguimiento de objetivos nutricionales y de entrenamiento.
-- **UX Adaptativa:** Diseño optimizado para uso intensivo en campo (gimnasios/entrenamientos).
+## 3. WEB Salvin PRO Suite
+**Stack:** Vite, React, Tailwind CSS.
+- **Resumen:** La cara pública y comercial del suite Salvin. Diseñada para convertir leads y presentar los beneficios de la plataforma.
+- **Temario Técnico:** Optimización SEO, carga diferida de contenido multimedia y diseño responsivo de alta fidelidad.
+
+## 4. Antigravity Salvin suite
+**Stack:** JavaScript (ES6+), Git Maintenance.
+- **Resumen:** Capa de infraestructura dedicada a la mejora continua y corrección de errores críticos en todo el ecosistema Salvin.
+- **Temario Técnico:** Gestión de logs de errores, refactorización de código legado y despliegue de parches de seguridad.
+
+## 5. DISEÑO AUTOMATIZADO (Font Engineering)
+**Stack:** Python, `fonttools`, `otData`, `otTables`.
+- **Resumen:** Herramienta de alta ingeniería para la automatización de metadatos tipográficos y manipulación de tablas binarias de fuentes.
+- **Temario Técnico:** Scripting avanzado en Python para la extracción y modificación de curvas de Bézier y tablas OpenType a nivel de bits.
+
+## 6. Flyer Creator AI
+**Stack:** React 19, Google Gemini AI, Canvas API.
+- **Resumen:** Generador automatizado de piezas publicitarias que utiliza Inteligencia Artificial para interpretar conceptos creativos y convertirlos en diseños finales.
+- **Temario Técnico:** Integración de `google/genai` para el procesamiento de prompts visuales y composición dinámica de elementos gráficos.
+
+## 7. STICKERS UP
+**Stack:** FFmpeg (Wasm), Framer Motion, React.
+- **Resumen:** Plataforma de creación de assets visuales y stickers mediante el procesamiento de video directamente en el cliente.
+- **Temario Técnico:** Implementación de `@ffmpeg/ffmpeg` en el navegador para transcodificación de video sin servidor (client-side processing).
+
+## 8. LOREN (La Ermitaña de la Montaña)
+**Stack:** Next.js 16, React 19, Tailwind CSS 4, SSR.
+- **Resumen:** E-commerce premium con estética "Dark-Rústica" para productos artesanales de alta gama.
+- **Temario Técnico:** Renderizado del lado del servidor (SSR) para SEO crítico y animaciones fluidas mediante CSS nativo y Framer Motion.
+
+## 9. PLANTILLA_IAICO_V1 (Master Blueprint)
+**Stack:** Electron, Capacitor, React, Vite.
+- **Resumen:** Arquitectura base que permite desplegar el mismo código en Escritorio, Móvil y Web con estándares industriales.
+- **Temario Técnico:** Configuración de puentes binarios (Bridge API), manuales técnicos integrados y estructura modular de servicios.
+
+## 10. Medicoach
+**Stack:** Expo, React Native, SafeStorage.
+- **Resumen:** Aplicación móvil nativa para el coaching médico y seguimiento de pacientes en entornos clínicos.
+- **Temario Técnico:** Manejo de navegación nativa profunda (ios/android) y persistencia de datos sensibles bajo cumplimiento de estándares de salud.
+
+## 11. Trading Pakal
+**Stack:** Node.js, API Bitso, WebSocket.
+- **Resumen:** Bot de trading automatizado que opera en tiempo real en mercados de criptoactivos.
+- **Temario Técnico:** Implementación de algoritmos de gestión de riesgo (Take Profit/Stop Loss) y monitoreo de latencia mediante WebSockets.
+
+## 12. Money Creator (Web3 Ecosystem)
+**Stack:** Wagmi, Viem, RainbowKit, React.
+- **Resumen:** Gateway de gestión de activos digitales y conectividad con protocolos descentralizados de la blockchain.
+- **Temario Técnico:** Integración de Smart Contracts, gestión de firma de transacciones y estados persistentes de billeteras (Wallets).
+
+## 13. RCE (Control ESD)
+**Stack:** React 19, Recharts, Gemini AI.
+- **Resumen:** Sistema industrial de control de calidad para la prevención de descargas electrostáticas en líneas de producción.
+- **Temario Técnico:** Análisis predictivo de reincidencias mediante IA y visualización de datos estadísticos con Recharts de alta densidad.
+
+## 14. Almacen Empresarial (Transnacional HQ)
+**Stack:** Vite, TypeScript, Gemini AI.
+- **Resumen:** Sistema de gestión logística para almacenes en Shanghai, CDMX y Laredo con análisis de riesgos aduanales.
+- **Temario Técnico:** Algoritmos de optimización de inventario y alertas preventivas sobre cumplimiento de normativas internacionales mediante IA.
+
+## 15. ELITE HOSTING
+**Stack:** Server Infrastructure, DNS Management, Automation.
+- **Resumen:** Plataforma de gestión de infraestructura y servicios de hospedaje web para clientes del ecosistema.
+- **Temario Técnico:** Configuración de entornos de despliegue automatizados y gestión de seguridad a nivel de red.
+
+## 16. ACUARIO MICHIN
+**Stack:** React 19, Framer Motion, Interactive Maps.
+- **Resumen:** Experiencia digital inmersiva para visitantes de acuarios de alta gama, integrando geolocalización y laboratorios creativos.
+- **Temario Técnico:** Uso intensivo de animaciones de "Deep Sea" y personalización de mapas mediante estilos JSON avanzados.
+
+## 17. VILLA 20 TAMARÁN CLUB
+**Stack:** Vite, React, Tailwind CSS.
+- **Resumen:** Plataforma de gestión de experiencias turísticas y control de membresías para clubes de lujo.
+- **Temario Técnico:** Arquitectura de componentes ligeros para tiempos de carga bajos en dispositivos móviles fuera de casa.
+
+## 18. OMISTREAM AI
+**Stack:** Gemini AI, Streaming Protocols, React.
+- **Resumen:** Plataforma de streaming de video enriquecida con análisis inteligente de contenido en tiempo real.
+- **Temario Técnico:** Integración de modelos de lenguaje para la generación automática de metadatos y resúmenes de video.
 
 ---
 
-## 2. Ingeniería de Automatización y Diseño
-**Proyectos:** `DISEÑO AUTOMATIZADO`, `Flyer Creator`, `STICKERS UP`.
+## 🛠️ Resumen de Stack Tecnológico de NERI APPS
 
-### Resumen Ejecutivo
-Aplicación de la ingeniería de software a procesos creativos. El proyecto de **Diseño Automatizado** destaca por el uso de Python para manipular datos de ingeniería de fuentes (Font Engineering) a un nivel binario y tabular.
-
-### 📚 Temario Técnico
-- **Font Engineering (Python):** Automatización de tablas de fuentes (otData, otTables) y manipulación de metadatos tipográficos.
-- **Generación Publicitaria IA:** Conversión de conceptos creativos en activos visuales usando Large Language Models.
-- **Procesamiento de Video (FFmpeg):** Creación de stickers y micro-videos mediante procesamiento en el cliente (Wasm).
-
----
-
-## 3. E-commerce y Branding Premium
-**Proyecto:** `LOREN (La Ermitaña de la Montaña)`.
-
-### Resumen Ejecutivo
-Plataforma de comercio electrónico de alta gama para productos artesanales. Utiliza **Next.js 16** para ofrecer una experiencia de usuario extremadamente rápida y una estética rústica-romántica que eleva el valor percibido del producto.
-
-### 📚 Temario Técnico
-- **Arquitectura Next.js:** Renderizado del lado del servidor (SSR) para SEO avanzado y tiempos de carga instantáneos.
-- **UI/UX con Framer Motion:** Micro-interacciones fluidas y transiciones elegantes que refuerzan el branding artesanal.
-- **Styling con Tailwind 4:** Gestión eficiente de paletas de colores personalizadas y diseño responsivo premium.
-
----
-
-## 4. Arquitectura Multiplataforma y Plantillas
-**Proyecto:** `PLANTILLA_IAICO_V1`.
-
-### Resumen Ejecutivo
-El "Master Blueprint" para nuevos desarrollos. Una plantilla técnica de nivel industrial que permite iniciar aplicaciones **Electron (Desktop)**, **Capacitor (Móvil)** y **Web** desde una base de código única enriquecida con manuales técnicos y de mantenimiento.
-
-### 📚 Temario Técnico
-- **Cross-Platform Bridge:** Configuración de puentes binarios para acceso a funciones de hardware desde el navegador.
-- **Documentación Técnica Integrada:** Manuales de usuario, guías de mantenimiento y checklist de pruebas pre-producción.
-- **Arquitectura Modular:** Estructura escalable de servicios y estados globales (React Context/Hooks).
-
----
-
-## 5. Salud y Bienestar (Mobile High-Performance)
-**Proyecto:** `medicoach`.
-
-### Resumen Ejecutivo
-Aplicación móvil nativa orientada al sector salud y coaching médico, desarrollada sobre el ecosistema **Expo/React Native**.
-
-### 📚 Temario Técnico
-- **Gestión de Navegación Nativa:** Flujos complejos de usuario optimizados para iOS y Android.
-- **Persistencia de Datos Médicos:** Manejo seguro de información confidencial y estados persistentes locales.
-
----
-
-## 6. Fintech, Web3 y Logística Industrial
-**Proyectos:** `trading_pak`, `money_creator`, `RCE (Control ESD)`, `Almacen Empresarial`.
-
-### Resumen Ejecutivo
-Desde el control de calidad industrial (ESD) hasta el mundo descentralizado (Web3), estas herramientas gestionan flujos de datos críticos y algoritmos de alta precisión.
-
-### 📚 Temario Técnico
-- **Control de Calidad Industrial (RCE):** Monitoreo de normativas de seguridad y análisis de incidencias operativas.
-- **Algoritmos de Trading (Node.js):** Ejecución de estrategias financieras en tiempo real con integración de APIs bancarias/crypto.
-- **Conectividad Web3:** Integración de protocolos de carteras digitales para visualización de activos en la blockchain.
-
----
-
-## 7. Digital Infrastructure & Tourism
-**Proyectos:** `ELITE HOSTING`, `ACUARIO MICHIN`, `VILLA 20 TAMARÁN CLUB`, `OMISTREAM AI`.
-
-### Resumen Ejecutivo
-Gestión de infraestructura web activa y plataformas de experiencia turística inmersiva.
-
-### 📚 Temario Técnico
-- **Gestión de Infraestructura (Elite Hosting):** Mantenimiento de servidores y branding de servicios de hospedaje.
-- **Streaming & UX:** Desarrollo de plataformas de video y tours virtuales con enfoque en rendimiento de red.
-
----
-
-## 🛠️ Stack Tecnológico Estratégico (NERI APPS)
-
-- **Lenguajes:** TypeScript, JavaScript, Python.
-- **Frameworks Web:** Next.js 16, React 19, Tailwind CSS 4.
-- **Plataformas:** Electron (Desktop), Capacitor (Mobile Hybrid), Expo (Native Hybrid).
-- **Backend & Cloud:** Node.js, Firebase (Full Suite), Gemini API (AI).
-- **Herramientas de Ingeniería:** FFmpeg, fonttools (Python), Git, Vite.
+- **Lenguajes:** TypeScript (Core), Python (Engineering), JavaScript (Legacy/Automation).
+- **Frontend Avanzado:** Next.js 16, React 19, Tailwind CSS 4, Framer Motion.
+- **Multiplataforma:** Electron, Capacitor, Expo (React Native).
+- **Inteligencia Artificial:** Google Gemini API (Análisis predictivo y generación creativa).
+- **Backend & Infraestructura:** Node.js, Firebase Full Suite, FFmpeg Wasm.
 
 ---
 
 > [!IMPORTANT]
-> **Notebook LM:** Este documento consolida 18 proyectos desarrollados e integrados. Se recomienda utilizar el análisis de "DISEÑO AUTOMATIZADO" para resaltar habilidades de ingeniería de software y el de "LOREN" para habilidades de desarrollo web moderno.
+> **Consolidación Profesional:** Este documento contiene 18 proyectos individuales. Cada uno representa una solución específica a problemas de negocio, desde la automatización industrial hasta el e-commerce de lujo y la ingeniería de datos avanzada.
